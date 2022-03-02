@@ -24,3 +24,11 @@ else if (number1 < number2){
 else{
     document.querySelector("h3").textContent = "Its a Draw 🪖 🏳"
 }
+
+// Enter Your Name
+
+player2 = prompt("What is your name?")
+if(player2){
+document.querySelectorAll("p")[1].textContent = player2;
+}
+else{};
