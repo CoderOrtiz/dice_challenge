@@ -1,3 +1,8 @@
+body {
+  background-color: #393E46;
+}
+
+/* Styling for Each Container */
 .container_1, .container_2 {
   width: 70%;
   margin: auto;
@@ -5,6 +10,20 @@
   font-family: 'Lobster'
 }
 
+/* Styling for h1, h3 selectors, and Winner Text Class */
+h1, h3 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+.winner_text {
+  font-size: 3rem;
+}
+
+/* Styling for the "Click Me!" Button */
 button{
     font-family: 'Lobster';
     padding: 15px 25px;
@@ -18,19 +37,24 @@ button{
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
-
 }
 
 button:hover {
   background-color: #FFE61B;
-color: black;
+  color: black;
 }
 
 button:active {
   background-color: #FFE61B;
-
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+ /* Styling for Player Names, Positioning for the Dice, and Dice Image Sizes */
+ p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
 }
 
 .dice {
@@ -38,32 +62,11 @@ button:active {
   display: inline-block;
 }
 
-body {
-  background-color: #393E46;
-}
-
-h1, h3 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
-}
-
-.winner_text {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
-}
-
 img {
   width: 80%;
 }
 
+/* Styling for Footer */
 footer {
   margin-top: 5%;
   color: #EEEEEE;
