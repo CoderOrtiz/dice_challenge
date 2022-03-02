@@ -2,7 +2,7 @@
 
 ## Description:
 
-Welcome to The Dice Challenge! This is a simple interactive game where you get to battle the computer to who see who achieves the higher dice number. This is my first JavaScript Project which was very rewarding. The HTML and the CSS was a starter file from Udemy's "The Complete 2022 Web Development Bootcamp", taught by Dr. Angela Yu. While the project captured the foundation of JavaScript, it simply wasn’t enough to satisfy me. Therefore, I incorporated recent and pass knowledge make the game more interactive and personal! I hope you enjoy The Dice Challenge!
+Welcome to The Dice Challenge! This is a simple interactive game where you get to battle the computer to who see who achieves the higher dice number. This is my first JavaScript Project which was very rewarding. The HTML and the CSS was a starter file from Udemy's "The Complete 2022 Web Development Bootcamp", taught by Dr. Angela Yu. While the project captured the foundation of JavaScript, it simply wasn’t enough to satisfy me. Therefore, I incorporated recent and pass knowledge making the game more interactive and personal! I hope you enjoy The Dice Challenge!
 
 ## What I Learned:
 
