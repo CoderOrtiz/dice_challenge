@@ -1,6 +1,5 @@
 // Enter Your Name
 player2 = prompt("What is your name?");
-
 player2 = player2||"Player 2"
 
 // Welcome Message
