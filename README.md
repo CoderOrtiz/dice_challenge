@@ -14,7 +14,7 @@ Welcome to The Dice Challenge! This is a simple interactive game where you get t
 
 1. Changed h1 from "Refresh Me" to "Let’s Play!" I wanted this game to be more interactive and inviting. I wanted more than to refresh the page to a new result.
 
-2. When you open the link you are greeted with a prompt asking What your name is. Once you enter your name it is saved, an alert will pop up welcoming you personally to the game.
+2. When you open the link you are greeted with a prompt asking “What is your name?” Once you enter your name, it is saved, an alert will pop up welcoming you personally to the game. I set a 15 character limit to Player 2's name. I also implemented “slice” to separate the first character and the other characters so the first character will be capitalized and the rest will be lower case.
 
 3. Your personal name is saved as player two. If you do not enter a name, "Player 2" will take the place of your name by default. You as the player will be battling the computer named, "Skynet".
 
@@ -25,4 +25,5 @@ Welcome to The Dice Challenge! This is a simple interactive game where you get t
 ![webpage snapshot](assets/images/dice_challenge.png)
 
 Play the Dice Challenge Today! https://coderortiz.github.io/dice_challenge/
+
 

@@ -12,7 +12,7 @@ namePart2 = player.slice(1, 15);
 player2 = namePart1.toUpperCase() + namePart2.toLowerCase() || "Player 2";
 
 // Welcome Message
-alert("Welcome " + player2 + ", prepare to lose! 😈");
+alert("Welcome " + player2 + "! " + 'You are about to enter The Dice Challenge! Here you will battle the computer named, "Skynet". Whoever receives the higher dice wins the battle! Prepare to lose ' + player2 + "! 😈");
 
 // Adds Player 2's Name Above Player Two in Game
 if (player2) {
