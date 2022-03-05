@@ -1,6 +1,12 @@
 // Enter Your Name
-player2 = prompt("What is your name?");
-player2 = player2||"Player 2"
+player = prompt("What is your name?");
+
+// Capitalize's the First Letter & Decapitalizes the remaining letters
+namePart1 = player.slice(0, 1);
+namePart2 = player.slice(1, 15);
+
+// Adds "namePart1" & "namePart2" to Make the Player's Name Grammatically Correct
+player2 = namePart1.toUpperCase() + namePart2.toLowerCase() || "Player 2"
 
 // Welcome Message
 alert("Welcome " + player2 + ", prepare to lose! 😈");
@@ -24,7 +30,7 @@ function run() {
     dice2 = "./assets/images/dice" + number2 + ".png";
     document.querySelectorAll("img")[1].setAttribute("src", dice2);
 
-    // Selecting Winner and Pronouncing Winner
+    // Selecting Winner & Pronouncing Winner
     if (number1 > number2) {
         document.querySelector("h3").textContent = "Skynet wins 😝 😎";
     }
